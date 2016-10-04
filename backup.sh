@@ -61,7 +61,10 @@ function cleanOld()
 if [ $# -lt 1 ];then
     echo "============================================================="
     echo "Uage   : back up file or folder into default backup directory"
-    echo "         backup.sh file/direcotry [suffix]"
+    echo "         backup.sh file/direcotry [command]"
+    echo "         command could be one of the following:"
+    echo "         --suffix : to add time suffix"
+    echo "         --clean  : to clean old version backup"
     echo "Author : dujunlong[deepdu@126.com]"
     echo "Version: v0.1 [2016/10/3]"
     echo "============================================================="
